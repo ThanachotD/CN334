@@ -14,7 +14,7 @@
                     <b>{{session('success')}}</b>
                     @endif
                     <div class="card-header">
-                        ตารางข้อมูลแผนก
+                        ข้อมูลเรซูเม่
                     </div>
                         <table class="table">
                             <thead>
