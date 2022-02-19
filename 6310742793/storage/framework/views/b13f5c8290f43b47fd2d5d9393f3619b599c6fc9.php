@@ -15,7 +15,6 @@
 
                     <?php echo e(__('You are logged in!')); ?>
 
-
                     You are User.
                 </div>
             </div>

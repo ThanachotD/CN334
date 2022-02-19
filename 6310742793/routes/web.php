@@ -18,11 +18,13 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [IndexController::class, 'index']);
+
 Route::resource('posts', PostController::class);
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('admin/home', [HomeController::class, 'adminHome'])->name('admin.home')->middleware('is_admin');
+
+
 
