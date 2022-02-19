@@ -16,7 +16,7 @@ class PostController extends Controller
     public function index()
     {
         //
-        $data = Post::first()->pagination(5);
+        $data = Post::first()->paginate(5);
 
         return view('posts.index' , compact('data'))
                 ->with('i',(request()->input('page',1)-1)*5);
@@ -44,7 +44,8 @@ class PostController extends Controller
             'title' => 'required',
             'description' => 'required'
         ]);
-        Post::created($request->all());
+        Post::create($request->all());
+
         return redirect()->route('posts.index')
                          ->with('success', 'Post created successfully');
     }
@@ -82,7 +83,7 @@ class PostController extends Controller
     {
         $request->validate([
             'title' => 'required',
-            'description' => 'requiired'
+            'description' => 'required'
         ]);
         $post->update($request->all());
         return redirect()->route('posts.index')
