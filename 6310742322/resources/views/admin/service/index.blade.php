@@ -1,9 +1,4 @@
 <x-app-layout>
-    <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Hello , {{Auth::user() ->name }}
-        </h2>
-    </x-slot>
 
     <div class="py-12">
         <div class="container">
@@ -11,17 +6,21 @@
 
                 <div class="col-md-8">
                     @if(session("success"))
-                        <b>{{session('success')}}</b>
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>{{session('success')}}</strong> You should check in on some of those fields below.
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
                     @endif
+
                     <div class="card-header">
-                        ตารางข้อมูลบริการ
+                        บทความทั้งหมด
                     </div>
                     <table class="table">
                         <thead>
                         <tr>
-                            <th scope="col">ลำดับ</th>
+                            <th scope="col">#</th>
                             <th scope="col">ชื่อ</th>
-                            <th scope="col">user ID</th>
+                            <th scope="col">รูปภาพ</th>
                             <th scope="col">สร้างโดย</th>
                             <th scope="col">เมื่อเวลา</th>
                             <th scope="col">แก้ไข</th>
@@ -59,12 +58,12 @@
                 </div>
                 <div class="col-md-4">
                     <div class="card">
-                        <div class="card-header">แบบฟอร์ม</div>
+                        <div class="card-header">สร้างบทความ</div>
                         <div class="card-body">
                             <form action="{{route('addService')}}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group">
-                                    <label for="service_name">ชื่อบริการ</label>
+                                    <label for="service_name">ชื่อบทความ</label>
                                     <input type="text" class="form-control" name="service_name">
                                <br>
                                 @error('service_name')
