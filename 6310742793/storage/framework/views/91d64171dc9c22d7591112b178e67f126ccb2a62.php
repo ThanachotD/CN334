@@ -1,11 +1,8 @@
-;
-
-
 <?php $__env->startSection('content'); ?>
 
     <div class="row mt-5">
         <div class="col-md-12">
-            <h2>Laravel 8 CRUD - Index</h2>
+            <h2>Bhuwich's CRUD</h2>
             <a href="<?php echo e(route('posts.create')); ?>" class="btn btn-success my-3">Create new post</a>
         </div>
     </div>
