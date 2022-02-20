@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Terachot Jaturatasanai</title>
+    <title>Teerachot Jaturatasanai</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Codrops">
@@ -33,6 +33,36 @@
             from, to { border-color: transparent }
             50% { border-color: orange; }
         }
+        p.one {
+            border: 1px solid #2f2c2c;
+            background-color: #ffffff;
+            padding-top: 50px;
+            padding-right: 800px;
+            padding-bottom: 50px;
+            padding-left: 80px;
+            z-index: 99;
+            border-radius: 8px;
+        }
+        .oak {
+            position: absolute;
+            padding-left: 20px;
+        }
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+
+        }
+
+        td, th {
+            border: 1px solid #ffffff;
+            text-align: left;
+
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
     </style>
     <script>document.documentElement.className = "js";
 
@@ -43,10 +73,13 @@
         };
 
         supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+
 </head>
 <body class="demo-1 loading">
+
 <main>
-    <div class="message">Please view this demo on a desktop to see the effect.</div>
+
+
     <div class="frame">
         <div class="frame__title-wrap">
             <h1 class="frame__title">
@@ -78,10 +111,23 @@
             <div class="grid__item pos-9"><div class="grid__item-img" style="background-image:url(oak9.jpg);"></div></div>
             <div class="grid__item pos-10"><div class="grid__item-img" style="background-image:url(S__6602788.jpg);"></div></div>
         </div>
-        <h2 class="content__title no-select">
-            <span>Welcome</span>
-            <span class="content__title-sub"> To My Portfolio</span>
-        </h2>
+        <p class="one">
+            <img src="oak9.jpg"  width="200" height="300">
+            <span class="oak">
+                 Name : Teerachot Jaturatasanai(OAK)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Age : 20 <br>
+            Education : Thammasat University&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sex : male<br>
+            Religion : Buddhist&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Talent : Archery(Compound Bow)<br>
+            information :Hello, my name is Oak, welcome to my portfolio. I am 20 years old now <br>And I'm studying at Thammasat University. My hobby is archery and I really like it. <br>See you at the university!<br>
+            </span>
+            <i class="fa-solid fa-hexagon-check"></i>
+
+
+
+
+
+
+        </p>
+
     </div>
 </main>
 <svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
