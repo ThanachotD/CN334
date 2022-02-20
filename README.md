@@ -1,11 +1,6 @@
 # CN334
 Welcome to CN334 (Webspplication Project)
-สร้างเว็บไซต์ นำเสนอตัวเอง (portfolio) โดยมีข้อกำหนดดังต่อไปนี้  Deadline 21 Feb
-1) ใช้ Laravel
-2) มี Content ที่สามารถทำ CRUD ได้
-3) มีส่วนที่เป็น AJAX เรียกมาส่วนที่เป็น REST API
-4) ใช้ CSS Library ทำลูกเล่นด้วยสวยงาม
-การให้คะแนน (30 คะแนน)
-1) เว็บทุกคนในทีมรันได้บน localhost (5 คะแนน)
-2) ทำเสร็จตามข้อกำหนด (20 คะแนน)
-3) มีการ commit ขึ้น github เป็นระยะ เมื่อทำเสร็จแต่ละส่วน (5 คะแนน)
+- Portfolio
+- CSS framework
+- Larave;
+- Ajax restful api
