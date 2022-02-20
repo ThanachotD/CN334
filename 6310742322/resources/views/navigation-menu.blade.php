@@ -5,7 +5,7 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                <img src="{{asset('icon-v1.png')}}">
+                <img src="{{asset('logofinal.svg')}}">
                 </div>
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
@@ -13,12 +13,9 @@
                         หน้าหลัก
                     </x-jet-nav-link>
 
-                    <x-jet-nav-link href="{{ route('services') }}" >
-                        เขียนบทความ
-                    </x-jet-nav-link>
 
-                    <x-jet-nav-link href="{{ route('department') }}" >
-                        แก้ไขหน้าเว็บ
+                    <x-jet-nav-link href="{{ route('createblogs') }}" >
+                        บทความ
                     </x-jet-nav-link>
                 </div>
             </div>

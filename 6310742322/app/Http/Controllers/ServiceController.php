@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Department;
+
 use Carbon\Carbon;
 use Illuminate\Http\Request;
-
 use App\Models\Service;
-use Illuminate\Support\Facades\Auth;
+
 
 class ServiceController extends Controller
 {

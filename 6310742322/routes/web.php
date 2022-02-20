@@ -5,6 +5,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\DepartmentController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\CreateblogController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -48,6 +49,13 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function (){
     Route::post('/service/update/{id}',[ServiceController::class,'update']);
     Route::get('/service/delete/{id}',[ServiceController::class,'delete']);
 
+    //createblog
+    Route::get('/createblog/all',[CreateblogController::class,'index'])->name('createblogs');
+    Route::post('/createblog/add',[CreateblogController::class,'store'])->name('addCreateblogs');
+
+    Route::get('/createblog/edit/{id}',[CreateblogController::class,'edit']);
+    Route::post('/createblog/update/{id}',[CreateblogController::class,'update']);
+    Route::get('/createblog/delete/{id}',[CreateblogController::class,'delete']);
 });
 
 
