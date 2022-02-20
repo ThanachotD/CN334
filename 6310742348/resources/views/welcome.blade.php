@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="favicon.26242483.ico">
     <link rel="stylesheet" href="https://use.typekit.net/eqx3jwb.css">
     <link rel="stylesheet" type="text/css" href="base.98fd6c19.css">
+
     <style>
         .typewriter h1 {
             overflow: hidden; /* Ensures the content is not revealed until the animation */
