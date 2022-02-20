@@ -140,7 +140,7 @@
                 <img src="{{asset('profile.jpg')}}">
             </div>
             <div class="col-3" style="margin-top: 6%;">
-                <h1 style="font-size: 65px;font-weight: bold;color: #3F3F3F;padding-left: 10%;" >
+                <h1 style="font-size: 65px;font-weight: bold;color: #3F3F3F;padding-left: 10%;">
                     My<br>
                     <span style="color: #FFA800;font-weight: bold;" id="Story"></span></h1>
                 <p style="text-align: justify;padding-left: 10%; "> Lorem Ipsum is simply dummy text of the printing
