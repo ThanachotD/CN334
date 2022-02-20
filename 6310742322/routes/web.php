@@ -21,6 +21,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/blogs', function () {
+    return view('blogpage');
+});
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     //get form models
     $users =  DB::table('users')->get();
