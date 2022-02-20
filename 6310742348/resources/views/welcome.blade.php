@@ -58,11 +58,11 @@
         </div>
         <div class="frame__links">
             <a href="http://127.0.0.1:8000/info">Information</a>
-            <a href="https://tympanus.net/codrops/?p=50073">Diary</a>
+            <a href="http://127.0.0.1:8000/Diary">Diary</a>
             <a href="http://127.0.0.1:8000/">Main Page</a>
         </div>
         <div class="frame__demos">
-            <a href="index.html" class="frame__demo frame__demo--current">CN 334</a>
+            <a href="index.html" class="frame__demo frame__demo--current">CN 334 Template by Codrops </a>
 
         </div>
     </div>

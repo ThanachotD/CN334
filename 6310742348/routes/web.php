@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/info', function () {
     return view('info');
 });
+Route::get('/Diary', function () {
+    return view('Diary');
+});
 
 
 Auth::routes();
