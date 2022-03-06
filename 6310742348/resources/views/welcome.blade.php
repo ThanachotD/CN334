@@ -81,7 +81,7 @@
         </div>
         <h2 class="content__title no-select">
             <span>Welcome</span>
-            <span class="content__title-sub"> To My Portfolio</span>
+            <span class="content__title-sub"> &nbsp&nbspTo My Portfolio</span>
         </h2>
     </div>
 </main>

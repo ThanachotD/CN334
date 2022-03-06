@@ -21,6 +21,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
 
     <style>
+        .background{
+            background-color: black;
+        }
         .typewriter h1 {
             overflow: hidden; /* Ensures the content is not revealed until the animation */
             border-right: .15em solid orange; /* The typwriter cursor */
@@ -108,7 +111,7 @@
 
         </div>
     </div>
-    <div class="content">
+    <div class="content" style="background-color: black">
         <div class="grid">
             <div class="grid__item pos-1"><div class="grid__item-img" style="background-image:url(S__6602791.jpg);"></div></div>
             <div class="grid__item pos-2"><div class="grid__item-img" style="background-image:url(oak3.jpg);"></div></div>
@@ -124,7 +127,7 @@
 
 
 
-                <div class="container ;p.one" style="width: 700px; position: center">
+                <div class="container ;p.one" style="width: 700px; position: center;background-color: white;padding-top: 20px">
                     <table class="table-responsive">
                     <table class="table">
                     <tr>
