@@ -94,7 +94,7 @@
             <a href="http://127.0.0.1:8000/">Main Page</a>
         </div>
         <div class="frame__demos">
-            <a href="index.html" class="frame__demo frame__demo--current">CN 334 Template by Codrops</a>
+            <h4 >CN 334 Template by Codrops </h4>
 
         </div>
     </div>
